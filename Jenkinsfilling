@@ -1,0 +1,86 @@
+import java.text.SimpleDateFormat
+
+def currentDate() {
+    def date = new Date()
+    currentDate = new SimpleDateFormat('MM/dd/yy_HH:mm:ss')
+    return currentDate.format(date).toString()
+}
+
+node("Win4jenkins4testers") { //имя сервера
+
+    def branch = env.Branch // выбор ветки проекта
+    def tagTest = env.Tag // SELECT filling
+    def standVersion = env.StandVersion // SELECT version
+    def ip = env.StandIP // SELECT выбор стенда
+
+    stage("Prepare Project") {
+        cleanWs()
+    }
+
+    stage("Cloning Project") {
+        git branch: branch,
+            credentialsId: 'orudenko-jenkins',
+            url: 'http://gitlab.local/Tests/selenium-python-arm.git'
+    }
+
+    stage("Run Tests") {
+
+        try {
+            bat 'set PATH=C:\\Users\\jenkins\\AppData\\Local\\Programs\\Python\\Python39;%PATH%'
+            bat 'python --version'
+            bat 'python -m pip install -r requirements.txt'
+            bat 'cd C:\\Jenkins\\workspace\\autotest\\filling'
+            bat 'pytest -s -q -v -m filling --alluredir=target/allure-results --disable-pytest-warnings --ip ' + ip + ' --stand-version ' + standVersion
+        } catch (Throwable ignore) { }
+    }
+
+    stage('Save Allure Results') {
+            script {
+                archiveArtifacts 'target/allure-results/*'
+            }
+    }
+
+    stage('Allure Reports') {
+        script {
+            allure([
+                commandline      : 'allure-2.8.0',
+                includeProperties: true,
+                jdk              : '',
+                properties       : [],
+                reportBuildPolicy: 'ALWAYS',
+                results          : [[path: 'target/allure-results']]
+            ])
+        }
+    }
+
+     stage('Publish') {
+        echo 'Publish Allure report'
+        publishHTML(
+                target: [
+                        allowMissing         : false,
+                        alwaysLinkToLastBuild: false,
+                        keepAll              : true,
+                        reportDir            : 'target/allure-results',
+                        reportFiles          : 'index.html',
+                        reportName           : "Allure Report"
+                ]
+        )
+    }
+
+    // Пофиксить отправку почтовых уведомлений
+    stage('Email-notification') {
+         def typeTestForEmail = tagTest
+
+         emailext(
+              body:   "Завершился прогон тестов функционала SafePhone" + "\n\r" +
+                      "Дата и время прогона : " + currentDate() + "\n\r" +
+                      "Вид тестов : " + typeTestForEmail + "\n\r" +
+                      "Тестовый набор : " + tagTest + "\n\r" +
+                      "Стенд : " + ip + "\n\r" +
+                      "Результат : " + currentBuild.currentResult + "\n\r" +
+                      "Отчет доступен по ссылке : " + "$BUILD_URL/allure",
+              subject: "На стенде " + ip + " завершился прогон тестов функционала SafePhone с результатом: " + currentBuild.currentResult,
+              to: env.EMAIL_ADDRESS_LIST
+         )
+    }
+}

@@ -1,0 +1,105 @@
+{
+  "id": null,
+  "name": "Политики ограничений ОС Аврора",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 20,
+    "name": "Политики ограничений ОС Аврора",
+    "applyMechanism": "COMBINED",
+    "platform": {
+      "platformId": 7,
+      "platformName": "AuroraOS"
+    }
+  },
+  "policies": [
+    {
+      "id": 20001,
+      "name": "DISALLOW_INSTALL_APPS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 20011,
+      "name": "DISALLOW_INSTALL_UNKNOWN_SOURCES",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 20002,
+      "name": "DISALLOW_CAMERA",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 20014,
+      "name": "DISALLOW_MICROPHONE",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 20010,
+      "name": "DISALLOW_SCREENSHOTS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 20006,
+      "name": "DISALLOW_INTERNET_SHARE",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 20008,
+      "name": "DISALLOW_CONFIG_MOBILE_NETWORKS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 20012,
+      "name": "DISALLOW_CONFIG_WIFI",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 20013,
+      "name": "DISALLOW_CONFIG_APN",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 20004,
+      "name": "DISALLOW_DEVELOPER_MODE",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 20009,
+      "name": "DISALLOW_OS_UPDATE",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 20005,
+      "name": "DISALLOW_FACTORY_RESET",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 20007,
+      "name": "DISALLOW_CONFIG_LOCATION",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 20003,
+      "name": "DISALLOW_CONFIG_DATE_TIME",
+      "valueType": "BOOLEAN",
+      "value": null
+    }
+  ]
+}

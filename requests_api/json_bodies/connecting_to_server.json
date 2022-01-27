@@ -1,0 +1,6 @@
+{
+  "sc_id": "%id_server",
+  "sc_cert_list": [],
+  "server_type": "%server_type",
+  "server_connection_url": "%url_server"
+}

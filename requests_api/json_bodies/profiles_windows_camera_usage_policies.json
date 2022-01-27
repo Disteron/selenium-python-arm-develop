@@ -1,0 +1,27 @@
+{
+  "id": null,
+  "name": "Политики использования камеры Windows",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 34,
+    "name": "Политики использования камеры Windows",
+    "applyMechanism": "COMBINED",
+    "platform": {
+      "platformId": 4,
+      "platformName": "Windows"
+    }
+  },
+  "policies": [
+    {
+      "id": 34000,
+      "name": "AllowCamera",
+      "valueType": "INTEGER",
+      "value": 1
+    }
+  ]
+}

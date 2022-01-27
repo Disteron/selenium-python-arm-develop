@@ -1,0 +1,153 @@
+{
+  "id": null,
+  "name": "%name_profile",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 9,
+    "name": "Политики ограничений контейнера Samsung Knox Android",
+    "applyMechanism": "COMBINED",
+    "platform": {
+      "platformId": 2,
+      "platformName": "Android"
+    }
+  },
+  "policies": [
+    {
+      "id": 9018,
+      "name": "allowMoveAppsToContainer",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 9033,
+      "name": "allowAppUninstallationContainer",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 9034,
+      "name": "setScreenCaptureContainer",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 9008,
+      "name": "enableBluetooth",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 9013,
+      "name": "setContactsSharingEnabled",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 9009,
+      "name": "enableExternalStorage",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 9010,
+      "name": "enableNFC",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 9011,
+      "name": "enableUsbAccess",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 9002,
+      "name": "networkSSIDList",
+      "valueType": "STRING_ARRAY",
+      "value": null
+    },
+    {
+      "id": 9003,
+      "name": "PackageToExternalStorageBlackList",
+      "valueType": "STRING_ARRAY",
+      "value": null
+    },
+    {
+      "id": 9004,
+      "name": "PackageToExternalStorageWhiteList",
+      "valueType": "STRING_ARRAY",
+      "value": null
+    },
+    {
+      "id": 9014,
+      "name": "setEnforceAuthForContainer",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 9017,
+      "name": "setUseSecureKeypad",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 9015,
+      "name": "setHibernationTimeout",
+      "valueType": "INTEGER",
+      "value": "5"
+    },
+    {
+      "id": 9031,
+      "name": "allowBiometricAuthenticationFingerprint",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 9032,
+      "name": "allowBiometricAuthenticationIRIS",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 9019,
+      "name": "allowMoveFilesToContainer",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 9020,
+      "name": "allowMoveFilesToOwner",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 9021,
+      "name": "allowShareClipboardDataToOwner",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 9035,
+      "name": "allowShareListContainer",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 9036,
+      "name": "allowChangeDataSyncPolicyCalendar",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 9037,
+      "name": "allowChangeDataSyncPolicyContacts",
+      "valueType": "BOOLEAN",
+      "value": null
+    }
+  ]
+}

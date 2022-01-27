@@ -1,0 +1,22 @@
+[
+  {
+    "comment": "",
+    "ruleId": null,
+    "dayNumber": 0,
+    "name": "%calender_name",
+    "periodType": "D",
+    "periodSize": 1,
+    "ruleStart": 1629504000000,
+    "ruleEnd": null,
+    "calendarStart": 1609459200000,
+    "calendarEnd": 1640908800000,
+    "start1": 30600,
+    "end1": 64800,
+    "start2": null,
+    "end2": null,
+    "start3": null,
+    "end3": null,
+    "start4": null,
+    "end4": null
+  }
+]

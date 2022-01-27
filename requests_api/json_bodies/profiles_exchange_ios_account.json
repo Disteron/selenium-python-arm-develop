@@ -1,0 +1,69 @@
+{
+  "id": null,
+  "name": "%name_profile",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 12,
+    "name": "Exchange аккаунт iOS",
+    "applyMechanism": "INDEPENDENT",
+    "platform": {
+      "platformId": 1,
+      "platformName": "iPhone OS"
+    }
+  },
+  "policies": [
+    {
+      "id": 12000,
+      "name": "EmailAddress",
+      "valueType": "STRING",
+      "value": "{{employee.exchange.emp_email}}"
+    },
+    {
+      "id": 12001,
+      "name": "Host",
+      "valueType": "STRING",
+      "value": "https://10.17.7.72"
+    },
+    {
+      "id": 12002,
+      "name": "SSL",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 12003,
+      "name": "UserName",
+      "valueType": "STRING",
+      "value": "{{employee.exchange.emp_email_domain}}\\{{employee.exchange.emp_email_login}}"
+    },
+    {
+      "id": 12004,
+      "name": "PreventMove",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 12005,
+      "name": "PreventAppSheet",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 12006,
+      "name": "disableMailRecentsSyncing",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 12007,
+      "name": "MailNumberOfPastDaysToSync",
+      "valueType": "INTEGER",
+      "value": null
+    }
+  ]
+}

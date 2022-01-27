@@ -1,0 +1,537 @@
+{
+  "id": null,
+  "name": "%name_profile",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 8,
+    "name": "Политики ограничений Samsung Knox Android",
+    "applyMechanism": "COMBINED",
+    "platform": {
+      "platformId": 2,
+      "platformName": "Android"
+    }
+  },
+  "policies": [
+    {
+      "id": 8103,
+      "name": "allowAppInstallation",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8104,
+      "name": "allowAppUninstallation",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8105,
+      "name": "allowGooglePlay",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8040,
+      "name": "setAllowNonMarketApps",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 8107,
+      "name": "disableEmbeddedMarkets",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8044,
+      "name": "setCameraState",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8050,
+      "name": "setMicrophoneState",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8004,
+      "name": "allowAudioRecord",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8034,
+      "name": "allowVideoRecord",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8052,
+      "name": "setScreenCapture",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 8045,
+      "name": "setCellularData",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8006,
+      "name": "allowBluetooth",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8108,
+      "name": "allowNFC",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8055,
+      "name": "setUsbDebuggingEnabled",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 8057,
+      "name": "setUsbMediaPlayerAvailability",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8032,
+      "name": "allowUsbHostStorage",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8037,
+      "name": "allowWiFi",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8038,
+      "name": "allowWifiDirect",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8003,
+      "name": "allowAndroidBeam",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8021,
+      "name": "allowSBeam",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8054,
+      "name": "setTethering",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8058,
+      "name": "setUsbTethering",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8059,
+      "name": "setWifiTethering",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8043,
+      "name": "setBluetoothTethering",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8053,
+      "name": "setSdCardState",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8023,
+      "name": "allowSDCardWrite",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8022,
+      "name": "allowSDCardMove",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8035,
+      "name": "allowVpn",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8012,
+      "name": "allowFirmwareRecovery",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 8018,
+      "name": "allowOTAUpgrade",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 8000,
+      "name": "allowFirmwareAutoUpdate",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8010,
+      "name": "allowFactoryReset",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8009,
+      "name": "allowDeveloperMode",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 8015,
+      "name": "allowKillingActivitiesOnLeave",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8025,
+      "name": "allowSafeMode",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 8110,
+      "name": "setInternalStorageEncryption",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8111,
+      "name": "setExternalStorageEncryption",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8031,
+      "name": "allowStopSystemApp",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8005,
+      "name": "allowBackgroundProcessLimit",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8011,
+      "name": "allowFastEncryption",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8102,
+      "name": "setAutoSecurityPolicyUpdateMode",
+      "valueType": "INTEGER",
+      "value": 0
+    },
+    {
+      "id": 8042,
+      "name": "setBackup",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8109,
+      "name": "allowGPS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8051,
+      "name": "setMockLocation",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8002,
+      "name": "allowAirplaneMode",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8014,
+      "name": "allowGoogleCrashReport",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 8013,
+      "name": "allowGoogleAccountsAutoSync",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8106,
+      "name": "disableAndroidBrowser",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8024,
+      "name": "allowSVoice",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8027,
+      "name": "allowSettingsChanges",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8049,
+      "name": "setLockScreenState",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8017,
+      "name": "allowLockScreenViewShortcuts",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8016,
+      "name": "allowLockScreenViewWidgets",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8033,
+      "name": "allowUserMobileDataLimit",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8041,
+      "name": "setBackgroundData",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8046,
+      "name": "setClipboardEnabled",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8007,
+      "name": "allowClipboardShare",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8028,
+      "name": "allowShareList",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8019,
+      "name": "allowPowerOff",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8048,
+      "name": "setHomeKeyState",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8047,
+      "name": "setHeadphoneState",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8030,
+      "name": "allowStatusBarExpansion",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8029,
+      "name": "allowSmartClipMode",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8036,
+      "name": "allowWallpaperChange",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8081,
+      "name": "setEmergencyCallOnly",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8068,
+      "name": "allowCallerIDDisplay",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8069,
+      "name": "allowCopyContactToSim",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8074,
+      "name": "allowWapPush",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8101,
+      "name": "setRoamingVoiceCalls",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8098,
+      "name": "setRoamingData",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8100,
+      "name": "setRoamingSync",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8099,
+      "name": "setRoamingPush",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8060,
+      "name": "addIncomingCallExceptionPattern",
+      "valueType": "STRING_ARRAY",
+      "value": null
+    },
+    {
+      "id": 8061,
+      "name": "addIncomingCallRestriction",
+      "valueType": "STRING_ARRAY",
+      "value": null
+    },
+    {
+      "id": 8064,
+      "name": "addOutgoingCallExceptionPattern",
+      "valueType": "STRING_ARRAY",
+      "value": null
+    },
+    {
+      "id": 8065,
+      "name": "addOutgoingCallRestriction",
+      "valueType": "STRING_ARRAY",
+      "value": null
+    },
+    {
+      "id": 8062,
+      "name": "addIncomingSmsExceptionPattern",
+      "valueType": "STRING_ARRAY",
+      "value": null
+    },
+    {
+      "id": 8063,
+      "name": "addIncomingSmsRestriction",
+      "valueType": "STRING_ARRAY",
+      "value": null
+    },
+    {
+      "id": 8066,
+      "name": "addOutgoingSmsExceptionPattern",
+      "valueType": "STRING_ARRAY",
+      "value": null
+    },
+    {
+      "id": 8067,
+      "name": "addOutgoingSmsRestriction",
+      "valueType": "STRING_ARRAY",
+      "value": null
+    },
+    {
+      "id": 8071,
+      "name": "allowIncomingSms",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8073,
+      "name": "allowOutgoingSms",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8076,
+      "name": "blockSmsWithStorage",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8070,
+      "name": "allowIncomingMms",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8072,
+      "name": "allowOutgoingMms",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 8075,
+      "name": "blockMmsWithStorage",
+      "valueType": "BOOLEAN",
+      "value": null
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": null,
+  "name": "Режим киоска iOS",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 16,
+    "name": "Режим киоска iOS",
+    "applyMechanism": "COMBINED",
+    "platform": {
+      "platformId": 1,
+      "platformName": "iPhone OS"
+    }
+  },
+  "policies": [
+    {
+      "id": 16000,
+      "name": "App.Identifier",
+      "valueType": "STRING",
+      "value": "com.microsoft.Office.Outlook"
+    },
+    {
+      "id": 16001,
+      "name": "App.Options.DisableTouch",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 16002,
+      "name": "App.Options.DisableDeviceRotation",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 16003,
+      "name": "App.Options.DisableVolumeButtons",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 16004,
+      "name": "App.Options.DisableRingerSwitch",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 16005,
+      "name": "App.Options.DisableSleepWakeButton",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 16006,
+      "name": "App.Options.DisableAutoLock",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 16007,
+      "name": "App.Options.EnableVoiceOver",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 16008,
+      "name": "App.Options.EnableZoom",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 16009,
+      "name": "App.Options.EnableInvertColors",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 16010,
+      "name": "App.Options.EnableAssistiveTouch",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 16011,
+      "name": "App.Options.EnableSpeakSelection",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 16012,
+      "name": "App.Options.EnableMonoAudio",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 16013,
+      "name": "App.UserEnabledOptions.VoiceOver",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 16014,
+      "name": "App.UserEnabledOptions.Zoom",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 16015,
+      "name": "App.UserEnabledOptions.InvertColors",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 16016,
+      "name": "App.UserEnabledOptions.AssistiveTouch",
+      "valueType": "BOOLEAN",
+      "value": false
+    }
+  ]
+}

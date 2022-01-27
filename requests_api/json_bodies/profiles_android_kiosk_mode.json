@@ -1,0 +1,143 @@
+{
+  "id": null,
+  "name": "Режим киоска Android",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 17,
+    "name": "Режим киоска Android",
+    "applyMechanism": "COMBINED",
+    "platform": {
+      "platformId": 2,
+      "platformName": "Android"
+    }
+  },
+  "policies": [
+    {
+      "id": 17000,
+      "name": "appUids",
+      "valueType": "STRING_ARRAY",
+      "value": [
+        "com.android.chrome"
+      ]
+    },
+    {
+      "id": 17001,
+      "name": "allowGlobalActions",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17002,
+      "name": "allowedHardwareKeys",
+      "valueType": "STRING_ARRAY",
+      "value": null
+    },
+    {
+      "id": 17003,
+      "name": "allowKeyguard",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17004,
+      "name": "allowNotifications",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17005,
+      "name": "allowSystemInfo",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17006,
+      "name": "allowAddUser",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17007,
+      "name": "allowAppsControl",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17008,
+      "name": "allowConfigMobileNetworks",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17009,
+      "name": "allowConfigWiFi",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17010,
+      "name": "allowCreateWindows",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17011,
+      "name": "allowDebuggingFeatures",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17012,
+      "name": "allowFactoryReset",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17013,
+      "name": "allowMountPhysicalMedia",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17014,
+      "name": "allowOutgoingCalls",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17015,
+      "name": "allowSafeBoot",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17016,
+      "name": "allowSms",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17017,
+      "name": "allowSystemErrorDialogs",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17018,
+      "name": "allowUnmuteMicrophone",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 17019,
+      "name": "allowUserSwitch",
+      "valueType": "BOOLEAN",
+      "value": false
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": null,
+  "name": "%name_profile",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 13,
+    "name": "Настройки монитора Android",
+    "applyMechanism": "COMBINED",
+    "pt_note_key": null,
+    "platform": {
+      "platformId": 2,
+      "platformName": "Android"
+    }
+  },
+  "policies": [
+    {
+      "id": 13001,
+      "name": "klm_key",
+      "valueType": "STRING",
+      "value": "%key_knox"
+    },
+    {
+      "id": 13004,
+      "name": "connectivity.socketServer.queueLength",
+      "valueType": "INTEGER",
+      "value": "20000"
+    },
+    {
+      "id": 13006,
+      "name": "connectivity.socketServer.responseTimeoutSeconds",
+      "valueType": "INTEGER",
+      "value": "60"
+    },
+    {
+      "id": 13013,
+      "name": "connectivity.socketServer.reconnectIntervalSeconds",
+      "valueType": "INTEGER",
+      "value": "30"
+    },
+    {
+      "id": 13014,
+      "name": "connectivity.socketServer.pingIntervalSeconds",
+      "valueType": "INTEGER",
+      "value": "180"
+    },
+    {
+      "id": 13018,
+      "name": "connectivity.vipnetAlwaysOn",
+      "valueType": "STRING",
+      "value": "no_supervision"
+    },
+    {
+      "id": 13026,
+      "name": "connectivity.socketServer.connection",
+      "valueType": "LINK_SERVER",
+      "value": 3
+    },
+    {
+      "id": 13027,
+      "name": "connectivity.mdmServer.connection",
+      "valueType": "LINK_SERVER",
+      "value": 2
+    },
+    {
+      "id": 13005,
+      "name": "device.location.intervalSeconds",
+      "valueType": "INTEGER",
+      "value": "600"
+    },
+    {
+      "id": 13024,
+      "name": "device.rootCheck.methods",
+      "valueType": "STRING_ARRAY",
+      "value": [
+        "system_signature",
+        "busybox_check"
+      ]
+    },
+    {
+      "id": 13025,
+      "name": "log.remoteLog.logLevel",
+      "valueType": "STRING",
+      "value": "warning"
+    },
+    {
+      "id": 13003,
+      "name": "telephony.allowPersonalCallsAndMessages",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 13007,
+      "name": "telephony.allowPersonalSim",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 13008,
+      "name": "telephony.allowOtherCorporateSim",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 13009,
+      "name": "telephony.allowNoSim",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 13015,
+      "name": "telephony.registerSimPhoneNumber",
+      "valueType": "STRING",
+      "value": null
+    },
+    {
+      "id": 13016,
+      "name": "telephony.collectPhoneCalls",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 13017,
+      "name": "telephony.collectPhoneMessages",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 13031,
+      "name": "telephony.considerFirstSimAsCorporate",
+      "valueType": "BOOLEAN",
+      "value": true
+    }
+  ]
+}

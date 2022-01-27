@@ -1,0 +1,24 @@
+{
+  "id": null,
+  "title": "SafeStore",
+  "location": "device",
+  "app_type": "corporate",
+  "app_id": "%app_id",
+  "app_uid": "ru.niisokb.safestore",
+  "app_name": "SafeStore",
+  "app_version": "1.1.0",
+  "description": "",
+  "is_monitor": false,
+  "app_must_be_installed": "MBI_YES",
+  "app_remove_after_disconn_control": true,
+  "app_must_be_enabled": true,
+  "app_must_be_managed": true,
+  "app_not_allowed_backup": true,
+  "type_list": "SELF",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "platform": {
+    "platformId": 2,
+    "platformName": ""
+  }
+}

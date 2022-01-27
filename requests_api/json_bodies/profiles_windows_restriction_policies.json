@@ -1,0 +1,135 @@
+{
+  "id": null,
+  "name": "Политики ограничений Windows",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 33,
+    "name": "Политики ограничений Windows",
+    "applyMechanism": "COMBINED",
+    "platform": {
+      "platformId": 4,
+      "platformName": "Windows"
+    }
+  },
+  "policies": [
+    {
+      "id": 33000,
+      "name": "AllowClipboardHistory",
+      "valueType": "INTEGER",
+      "value": 1
+    },
+    {
+      "id": 33010,
+      "name": "AllowCortana",
+      "valueType": "INTEGER",
+      "value": 0
+    },
+    {
+      "id": 33020,
+      "name": "AllowDeviceDiscovery",
+      "valueType": "INTEGER",
+      "value": 0
+    },
+    {
+      "id": 33030,
+      "name": "AllowFindMyDevice",
+      "valueType": "INTEGER",
+      "value": 0
+    },
+    {
+      "id": 33040,
+      "name": "AllowManualMDMUnenrollment",
+      "valueType": "INTEGER",
+      "value": 0
+    },
+    {
+      "id": 33050,
+      "name": "AllowSyncMySettings",
+      "valueType": "INTEGER",
+      "value": 0
+    },
+    {
+      "id": 33060,
+      "name": "AllowTailoredExperiencesWithDiagnosticData",
+      "valueType": "INTEGER",
+      "value": 0
+    },
+    {
+      "id": 33070,
+      "name": "AllowThirdPartySuggestionsInWindowsSpotlight",
+      "valueType": "INTEGER",
+      "value": 0
+    },
+    {
+      "id": 33080,
+      "name": "AllowWindowsConsumerFeatures",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 33090,
+      "name": "AllowWindowsSpotlight",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 33100,
+      "name": "AllowWindowsSpotlightOnActionCenter",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 33110,
+      "name": "AllowWindowsSpotlightOnSettings",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 33120,
+      "name": "AllowWindowsSpotlightWindowsWelcomeExperience",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 33130,
+      "name": "AllowWindowsTips",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 33140,
+      "name": "ConfigureWindowsSpotlightOnLockScreen",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 33150,
+      "name": "DisableCloudOptimizedContent",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 33160,
+      "name": "DoNotShowFeedbackNotifications",
+      "valueType": "INTEGER",
+      "value": 0
+    },
+    {
+      "id": 33170,
+      "name": "DoNotSyncBrowserSettings",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 33180,
+      "name": "PreventUsersFromTurningOnBrowserSyncing",
+      "valueType": "INTEGER",
+      "value": null
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": null,
+  "name": "%name_profile",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 29,
+    "name": "Защита устройства от угроз Android",
+    "applyMechanism": "COMBINED",
+    "platform": {
+      "platformId": 2,
+      "platformName": "Android"
+    }
+  },
+  "policies": [
+    {
+      "id": 29050,
+      "name": "kavKey",
+      "valueType": "STRING",
+      "value": "%key"
+    },
+    {
+      "id": 29001,
+      "name": "antivirusBasesUpdatePeriodHours",
+      "valueType": "INTEGER",
+      "value": "24"
+    },
+    {
+      "id": 29002,
+      "name": "infectedAppDetectedAction",
+      "valueType": "STRING",
+      "value": "report"
+    },
+    {
+      "id": 29030,
+      "name": "antivirusPeriodicCheckDaysWeek",
+      "valueType": "INTEGER_ARRAY",
+      "value": [
+        6
+      ]
+    },
+    {
+      "id": 29040,
+      "name": "antivirusPeriodicCheckTime",
+      "valueType": "INTEGER",
+      "value": 1
+    }
+  ]
+}

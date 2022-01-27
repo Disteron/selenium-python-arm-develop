@@ -1,0 +1,27 @@
+{
+  "id": null,
+  "name": "Настройки браслета SafeLife",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 38,
+    "name": "Настройки браслета SafeLife",
+    "applyMechanism": "COMBINED",
+    "platform": {
+      "platformId": 6,
+      "platformName": "SafeLife"
+    }
+  },
+  "policies": [
+    {
+      "id": 38010,
+      "name": "phone",
+      "valueType": "STRING",
+      "value": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "adm_surname": "admin",
+  "adm_name": "admin",
+  "adm_patronymic": "",
+  "id": "admin",
+  "adm_email": "",
+  "adm_position": "",
+  "account_expiration_date": "",
+  "password": "P@ssw0rd",
+  "adm_workplace": -1,
+  "adm_ot_id": -1,
+  "roles": [
+    "%role_id"
+  ]
+}

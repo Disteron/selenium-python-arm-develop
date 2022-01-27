@@ -1,0 +1,51 @@
+{
+  "id": null,
+  "name": "Настройки монитора iOS",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 28,
+    "name": "Настройки монитора iOS",
+    "applyMechanism": "COMBINED",
+    "platform": {
+      "platformId": 1,
+      "platformName": "iPhone OS"
+    }
+  },
+  "policies": [
+    {
+      "id": 28010,
+      "name": "GPS",
+      "valueType": "INTEGER",
+      "value": "600"
+    },
+    {
+      "id": 28020,
+      "name": "QueueLength",
+      "valueType": "INTEGER",
+      "value": "20000"
+    },
+    {
+      "id": 28030,
+      "name": "LogLevel",
+      "valueType": "STRING",
+      "value": "W"
+    },
+    {
+      "id": 28040,
+      "name": "LogRotatePeriod",
+      "valueType": "INTEGER",
+      "value": "3600"
+    },
+    {
+      "id": 28050,
+      "name": "LogRotateDeep",
+      "valueType": "INTEGER",
+      "value": "24"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "surname": "%surname",
+  "name": "%name_staff",
+  "patronymic": "%patronymic",
+  "job": "%position",
+  "officeId": "%staff_number",
+  "officeName": "",
+  "login": "%email_login",
+  "domain": "%email_domain",
+  "email": "%email",
+  "attributes": {}
+}

@@ -1,0 +1,119 @@
+{
+  "id": null,
+  "name": "Режим киоска Samsung Knox Android",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 18,
+    "name": "Режим киоска Samsung Knox Android",
+    "applyMechanism": "COMBINED",
+    "platform": {
+      "platformId": 2,
+      "platformName": "Android"
+    }
+  },
+  "policies": [
+    {
+      "id": 18000,
+      "name": "appUids",
+      "valueType": "STRING_ARRAY",
+      "value": [
+        "com.android.chrome"
+      ]
+    },
+    {
+      "id": 18001,
+      "name": "location",
+      "valueType": "STRING",
+      "value": "device"
+    },
+    {
+      "id": 18002,
+      "name": "allowHardwareKeys",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 18003,
+      "name": "listOfAllowedHardwareKeys",
+      "valueType": "INTEGER_ARRAY",
+      "value": null
+    },
+    {
+      "id": 18004,
+      "name": "allowAirCommandMode",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 18005,
+      "name": "allowAirViewMode",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 18006,
+      "name": "allowEdgeScreen",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 18007,
+      "name": "allowMultiWindowMode",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 18008,
+      "name": "allowTaskManager",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 18009,
+      "name": "clearAllNotifications",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 18010,
+      "name": "hideNavigationBar",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 18011,
+      "name": "hideStatusBar",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 18013,
+      "name": "wipeRecentTasks",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 18014,
+      "name": "stayOnWhilePluggedIn",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 18015,
+      "name": "allowUsbDebuggingEnabled",
+      "valueType": "BOOLEAN",
+      "value": false
+    },
+    {
+      "id": 18016,
+      "name": "allowUsbMediaPlayerAvailability",
+      "valueType": "BOOLEAN",
+      "value": false
+    }
+  ]
+}

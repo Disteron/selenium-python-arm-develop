@@ -1,0 +1,24 @@
+{
+  "id": null,
+  "title": "%title",
+  "location": "device",
+  "app_type": "corporate",
+  "app_id": "%app_id",
+  "app_uid": "{9201FC66-1329-424A-9647-13E35EF71860}",
+  "app_name": "Far Manager 2 x64 2.0.1420",
+  "app_version": "Wed Feb 24 23:18:10 UTC 2010",
+  "description": "",
+  "is_monitor": false,
+  "app_must_be_installed": "MBI_YES",
+  "app_remove_after_disconn_control": true,
+  "app_must_be_enabled": true,
+  "app_must_be_managed": true,
+  "app_not_allowed_backup": true,
+  "type_list": "SELF",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "platform": {
+    "platformId": 4,
+    "platformName": ""
+  }
+}

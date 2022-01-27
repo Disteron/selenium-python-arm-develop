@@ -1,0 +1,63 @@
+{
+  "id": null,
+  "name": "Настройки bluetooth Windows",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 31,
+    "name": "Настройки bluetooth Windows",
+    "applyMechanism": "COMBINED",
+    "platform": {
+      "platformId": 4,
+      "platformName": "Windows"
+    }
+  },
+  "policies": [
+    {
+      "id": 31000,
+      "name": "AllowAdvertising",
+      "valueType": "INTEGER",
+      "value": 1
+    },
+    {
+      "id": 31010,
+      "name": "AllowDiscoverableMode",
+      "valueType": "INTEGER",
+      "value": 1
+    },
+    {
+      "id": 31020,
+      "name": "AllowPrepairing",
+      "valueType": "INTEGER",
+      "value": 1
+    },
+    {
+      "id": 31030,
+      "name": "AllowPromptedProximalConnections",
+      "valueType": "INTEGER",
+      "value": 1
+    },
+    {
+      "id": 31040,
+      "name": "LocalDeviceName",
+      "valueType": "STRING",
+      "value": null
+    },
+    {
+      "id": 31050,
+      "name": "ServicesAllowedList",
+      "valueType": "STRING",
+      "value": null
+    },
+    {
+      "id": 31060,
+      "name": "SetMinimumEncryptionKeySize",
+      "valueType": "INTEGER",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+{
+    "id": null,
+    "name": "%name_profile",
+    "description": "",
+    "dateOfRemoval": "",
+    "version": null,
+    "type_list": "",
+    "ae_ot_name": "",
+    "ae_ot_id": 0,
+    "profileType": {
+        "id": 6,
+        "name": "Политики ограничений iOS",
+        "applyMechanism": "COMBINED",
+        "platform": {
+            "platformId": 1,
+            "platformName": "iPhone OS"
+        }
+    },
+    "policies": [
+        {
+            "id": 6004,
+            "name": "allowAppInstallation",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6065,
+            "name": "allowUIAppInstallation",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6073,
+            "name": "allowEnterpriseAppTrust",
+            "valueType": "BOOLEAN",
+            "value": false
+        },
+        {
+            "id": 6072,
+            "name": "allowAutomaticAppDownloads",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6005,
+            "name": "allowAppRemoval",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6089,
+            "name": "allowSystemAppRemoval",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6011,
+            "name": "allowCamera",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6066,
+            "name": "allowScreenShot",
+            "valueType": "BOOLEAN",
+            "value": false
+        },
+        {
+            "id": 6002,
+            "name": "allowAirDrop",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6064,
+            "name": "forceAirDropUnmanaged",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6049,
+            "name": "forceAirPlayOutgoingRequestsPairingPassword",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6084,
+            "name": "allowAirPrint",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6085,
+            "name": "allowAirPrintCredentialsStorage",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6086,
+            "name": "forceAirPrintTrustedTLSRequirement",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6087,
+            "name": "allowAirPrintiBeaconDiscovery",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6032,
+            "name": "allowPhotoStream",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6038,
+            "name": "allowSharedStream",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6079,
+            "name": "allowBluetoothModification",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6081,
+            "name": "forceWiFiWhitelisting",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6090,
+            "name": "allowVPNCreation",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6003,
+            "name": "allowAppCellularDataModification",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6021,
+            "name": "allowGlobalBackgroundFetchWhenRoaming",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6028,
+            "name": "allowOpenFromManagedToUnmanaged",
+            "valueType": "BOOLEAN",
+            "value": false
+        },
+        {
+            "id": 6029,
+            "name": "allowOpenFromUnmanagedToManaged",
+            "valueType": "BOOLEAN",
+            "value": false
+        },
+        {
+            "id": 6039,
+            "name": "allowUIConfigurationProfileInstallation",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6050,
+            "name": "allowManagedAppsCloudSync",
+            "valueType": "BOOLEAN",
+            "value": false
+        },
+        {
+            "id": 6013,
+            "name": "allowCloudBackup",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6014,
+            "name": "allowCloudDocumentSync",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6015,
+            "name": "allowCloudKeychainSync",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6062,
+            "name": "allowCloudPhotoLibrary",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6016,
+            "name": "allowDiagnosticSubmission",
+            "valueType": "BOOLEAN",
+            "value": false
+        },
+        {
+            "id": 6078,
+            "name": "allowDiagnosticSubmissionModification",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6024,
+            "name": "allowHostPairing",
+            "valueType": "BOOLEAN",
+            "value": false
+        },
+        {
+            "id": 6075,
+            "name": "blacklistedAppBundleIDs",
+            "valueType": "STRING_ARRAY",
+            "value": null
+        },
+        {
+            "id": 6076,
+            "name": "whitelistedAppBundleIDs",
+            "valueType": "STRING_ARRAY",
+            "value": null
+        },
+        {
+            "id": 6046,
+            "name": "forceEncryptedBackup",
+            "valueType": "BOOLEAN",
+            "value": true
+        },
+        {
+            "id": 6051,
+            "name": "allowEraseContentAndSettings",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6040,
+            "name": "allowUntrustedTLSPrompt",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6030,
+            "name": "allowOTAPKIUpdates",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6069,
+            "name": "allowPasscodeModification",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6019,
+            "name": "allowFingerprintForUnlock",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6094,
+            "name": "allowFingerprintModification",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6093,
+            "name": "forceAuthenticationBeforeAutoFill",
+            "valueType": "BOOLEAN",
+            "value": true
+        },
+        {
+            "id": 6077,
+            "name": "allowNotificationsModification",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6023,
+            "name": "allowLockScreenControlCenter",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6025,
+            "name": "allowLockScreenNotificationsView",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6026,
+            "name": "allowLockScreenTodayView",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6031,
+            "name": "allowPassbookWhileLocked",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6088,
+            "name": "allowProximitySetupToNewDevice",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6060,
+            "name": "forceWatchWristDetection",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6068,
+            "name": "allowPairedWatch",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6091,
+            "name": "forceDelayedSoftwareUpdates",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6092,
+            "name": "enforcedSoftwareUpdateDelay",
+            "valueType": "INTEGER",
+            "value": null
+        },
+        {
+            "id": 6006,
+            "name": "allowAssistant",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6007,
+            "name": "allowAssistantUserGeneratedContent",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6008,
+            "name": "allowAssistantWhileLocked",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6033,
+            "name": "allowSafari",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6045,
+            "name": "forceAssistantProfanityFilter",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6034,
+            "name": "safariAllowAutoFill",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6035,
+            "name": "safariForceFraudWarning",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6036,
+            "name": "safariAllowJavaScript",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6037,
+            "name": "safariAllowPopups",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6048,
+            "name": "forceLimitAdTracking",
+            "valueType": "BOOLEAN",
+            "value": true
+        },
+        {
+            "id": 6041,
+            "name": "allowVideoConferencing",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6053,
+            "name": "allowEnablingRestrictions",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6044,
+            "name": "autonomousSingleAppModePermittedAppIDs",
+            "valueType": "STRING_ARRAY",
+            "value": null
+        },
+        {
+            "id": 6080,
+            "name": "allowDictation",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6052,
+            "name": "allowSpotlightInternetResults",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6000,
+            "name": "allowAccountModification",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6070,
+            "name": "allowDeviceNameModification",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6071,
+            "name": "allowWallpaperModification",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6067,
+            "name": "allowKeyboardShortcuts",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6056,
+            "name": "allowDefinitionLookup",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6057,
+            "name": "allowPredictiveKeyboard",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6058,
+            "name": "allowAutoCorrection",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6059,
+            "name": "allowSpellCheck",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6022,
+            "name": "allowInAppPurchases",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6043,
+            "name": "allowiTunes",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6017,
+            "name": "allowExplicitContent",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6047,
+            "name": "forceITunesStorePasswordEntry",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6020,
+            "name": "allowGameCenter",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6001,
+            "name": "allowAddingGameCenterFriends",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6027,
+            "name": "allowMultiplayerGaming",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6061,
+            "name": "allowMusicService",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6074,
+            "name": "allowRadioService",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6055,
+            "name": "allowPodcasts",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6063,
+            "name": "allowNews",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6009,
+            "name": "allowBookstore",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6010,
+            "name": "allowBookstoreErotica",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6018,
+            "name": "allowFindMyFriendsModification",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6042,
+            "name": "allowVoiceDialing",
+            "valueType": "BOOLEAN",
+            "value": null
+        },
+        {
+            "id": 6012,
+            "name": "allowChat",
+            "valueType": "BOOLEAN",
+            "value": null
+        }
+    ]
+}

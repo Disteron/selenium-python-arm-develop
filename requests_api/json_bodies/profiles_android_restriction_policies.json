@@ -1,0 +1,369 @@
+{
+  "id": null,
+  "name": "%name_profile",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 7,
+    "name": "Политики ограничений Android",
+    "applyMechanism": "COMBINED",
+    "platform": {
+      "platformId": 2,
+      "platformName": "Android"
+    }
+  },
+  "policies": [
+    {
+      "id": 7027,
+      "name": "DISALLOW_INSTALL_APPS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7045,
+      "name": "DISALLOW_UNINSTALL_APPS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7071,
+      "name": "DISALLOW_PLAY_MARKET",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7028,
+      "name": "DISALLOW_INSTALL_UNKNOWN_SOURCES",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 7072,
+      "name": "DISALLOW_EMBEDDED_MARKETS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7006,
+      "name": "DISALLOW_APPS_CONTROL",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7049,
+      "name": "ENSURE_VERIFY_APPS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7052,
+      "name": "setCameraDisabled",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7046,
+      "name": "DISALLOW_UNMUTE_MICROPHONE",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7063,
+      "name": "setScreenCaptureDisabled",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 7008,
+      "name": "DISALLOW_BLUETOOTH",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7009,
+      "name": "DISALLOW_BLUETOOTH_SHARING",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7010,
+      "name": "DISALLOW_CONFIG_BLUETOOTH",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7032,
+      "name": "DISALLOW_OUTGOING_BEAM",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7025,
+      "name": "DISALLOW_DEBUGGING_FEATURES",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 7047,
+      "name": "DISALLOW_USB_FILE_TRANSFER",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7030,
+      "name": "DISALLOW_MOUNT_PHYSICAL_MEDIA",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7034,
+      "name": "DISALLOW_PRINTING",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7017,
+      "name": "DISALLOW_CONFIG_MOBILE_NETWORKS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7024,
+      "name": "DISALLOW_DATA_ROAMING",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7021,
+      "name": "DISALLOW_CONFIG_WIFI",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7020,
+      "name": "DISALLOW_CONFIG_VPN",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7019,
+      "name": "DISALLOW_CONFIG_TETHERING",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7031,
+      "name": "DISALLOW_NETWORK_RESET",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7070,
+      "name": "setVpnAlwaysOn",
+      "valueType": "STRING",
+      "value": null
+    },
+    {
+      "id": 7069,
+      "name": "setLockdownVpn",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7073,
+      "name": "DISALLOW_OTA_UPDATES",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 7026,
+      "name": "DISALLOW_FACTORY_RESET",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7037,
+      "name": "DISALLOW_SAFE_BOOT",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 7068,
+      "name": "setStorageEncryption",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7050,
+      "name": "setBackupServiceEnabled",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7065,
+      "name": "setShortSupportMessage",
+      "valueType": "STRING",
+      "value": "Доступ ограничен администратором"
+    },
+    {
+      "id": 7041,
+      "name": "DISALLOW_SHARE_LOCATION",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7016,
+      "name": "DISALLOW_CONFIG_LOCATION",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7014,
+      "name": "DISALLOW_CONFIG_DATE_TIME",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7004,
+      "name": "DISALLOW_AIRPLANE_MODE",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7074,
+      "name": "DISALLOW_EMBEDDED_BROWSERS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7029,
+      "name": "DISALLOW_MODIFY_ACCOUNTS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7075,
+      "name": "HARDWARE_MUTE_DISALLOW_CAMERA",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7043,
+      "name": "DISALLOW_SYSTEM_ERROR_DIALOGS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7055,
+      "name": "setDeviceOwnerLockScreenInfo",
+      "valueType": "STRING",
+      "value": null
+    },
+    {
+      "id": 7059,
+      "name": "setLongSupportMessage",
+      "valueType": "STRING",
+      "value": null
+    },
+    {
+      "id": 7062,
+      "name": "setOrganizationName",
+      "valueType": "STRING",
+      "value": null
+    },
+    {
+      "id": 7066,
+      "name": "setStartUserSessionMessage",
+      "valueType": "STRING",
+      "value": null
+    },
+    {
+      "id": 7067,
+      "name": "setStatusBarDisabled",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7022,
+      "name": "DISALLOW_CREATE_WINDOWS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7007,
+      "name": "DISALLOW_AUTOFILL",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7003,
+      "name": "DISALLOW_ADJUST_VOLUME",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7011,
+      "name": "DISALLOW_CONFIG_BRIGHTNESS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7013,
+      "name": "DISALLOW_CONFIG_CREDENTIALS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7015,
+      "name": "DISALLOW_CONFIG_LOCALE",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7018,
+      "name": "DISALLOW_CONFIG_SCREEN_TIMEOUT",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7038,
+      "name": "DISALLOW_SET_USER_ICON",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7039,
+      "name": "DISALLOW_SET_WALLPAPER",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7005,
+      "name": "DISALLOW_AMBIENT_DISPLAY",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7033,
+      "name": "DISALLOW_OUTGOING_CALLS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7042,
+      "name": "DISALLOW_SMS",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 7012,
+      "name": "DISALLOW_CONFIG_CELL_BROADCASTS",
+      "valueType": "BOOLEAN",
+      "value": null
+    }
+  ]
+}

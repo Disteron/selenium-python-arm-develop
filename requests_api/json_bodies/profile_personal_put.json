@@ -1,0 +1,9 @@
+[
+  {
+    "idEntity": "%id",
+    "typeEntity": "PERSON",
+    "operation": "ADD",
+    "isExcluded": false,
+    "own": 1
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "id": "",
+  "sourceType": "corporate",
+  "ownerName": "",
+  "file": null,
+  "textarea-3850-inputEl": "Far20b1420.x64.20100225.msi",
+  "textarea-3859-inputEl": "Far20b1420.x64.20100225.msi.meta.json",
+  "monitor": "",
+  "platformId": "",
+  "platformName": "",
+  "name": "Far Manager 2 x64",
+  "version": "2.0.1420",
+  "versionCode": "",
+  "uid": "{9201FC66-1329-424A-9647-13E35EF71860}",
+  "icon": "",
+  "description": "",
+  "metaData": {
+    "Version": 1,
+    "ProductName": "Far Manager 2 x64",
+    "UpgradeCode": "{83140F3F-1457-42EB-8053-233293664714}",
+    "ProductVersion": "2.0.1420",
+    "ProductCode": "{9201FC66-1329-424A-9647-13E35EF71860}",
+    "FileName": "Far20b1420.x64.20100225.msi",
+    "FileSize": 3648000
+  }
+}

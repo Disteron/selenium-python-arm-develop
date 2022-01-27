@@ -1,0 +1,147 @@
+{
+  "id": null,
+  "name": "%name_profile",
+  "description": "",
+  "dateOfRemoval": "",
+  "version": null,
+  "type_list": "",
+  "ae_ot_name": "",
+  "ae_ot_id": 0,
+  "profileType": {
+    "id": 11,
+    "name": "Exchange аккаунт в контейнере Samsung Knox Android",
+    "applyMechanism": "INDEPENDENT",
+    "platform": {
+      "platformId": 2,
+      "platformName": "Android"
+    }
+  },
+  "policies": [
+    {
+      "id": 11000,
+      "name": "emailAddress",
+      "valueType": "STRING",
+      "value": "{{employee.exchange.emp_email}}"
+    },
+    {
+      "id": 11001,
+      "name": "serverAddress",
+      "valueType": "STRING",
+      "value": "https://10.17.7.72"
+    },
+    {
+      "id": 11002,
+      "name": "setSSL",
+      "valueType": "BOOLEAN",
+      "value": true
+    },
+    {
+      "id": 11003,
+      "name": "easUser",
+      "valueType": "STRING",
+      "value": "{{employee.exchange.emp_email_login}}"
+    },
+    {
+      "id": 11004,
+      "name": "easDomain",
+      "valueType": "STRING",
+      "value": "{{employee.exchange.emp_email_domain}}"
+    },
+    {
+      "id": 11005,
+      "name": "allowInComingAttachments",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 11006,
+      "name": "setAcceptAllCertificates",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 11007,
+      "name": "setAlwaysVibrateOnEmailNotification",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 11008,
+      "name": "setIncomingAttachmentsSize",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 11009,
+      "name": "setMaxCalendarAgeFilter",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 11010,
+      "name": "setMaxEmailAgeFilter",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 11011,
+      "name": "setMaxEmailBodyTruncationSize",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 11012,
+      "name": "setMaxEmailHTMLBodyTruncationSize",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 11013,
+      "name": "setPastDaysToSync",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 11014,
+      "name": "setRequireEncryptedSMIMEMessages",
+      "valueType": "BOOLEAN",
+      "value": null
+    },
+    {
+      "id": 11015,
+      "name": "setSyncPeakTimingsPeakDays",
+      "valueType": "STRING_ARRAY",
+      "value": null
+    },
+    {
+      "id": 11016,
+      "name": "setSyncPeakTimingsPeakStartMinute",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 11017,
+      "name": "setSyncPeakTimingsPeakEndMinute",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 11018,
+      "name": "setSyncSchedulesPeakSyncSchedule",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 11019,
+      "name": "setSyncSchedulesOffPeakSyncSchedule",
+      "valueType": "INTEGER",
+      "value": null
+    },
+    {
+      "id": 11020,
+      "name": "setSyncSchedulesRoamingSyncSchedule",
+      "valueType": "INTEGER",
+      "value": null
+    }
+  ]
+}
